@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Docs Mind Map (Canonical)</title>
+  <link rel="stylesheet" href="./assets/site.css" />
+</head>
+<body>
+  <header>
+    <h1>Docs Mind Map (Canonical, single-language)</h1>
+    <span id="status"></span>
+  </header>
+
+  <main>
+    <section id="left">
+      <input id="search" class="search" placeholder="Search title, brief, url…" />
+      <div id="tree"></div>
+    </section>
+
+    <section id="right">
+      <div id="diagram"></div>
+      <details style="margin-top:12px;">
+        <summary>Mermaid source</summary>
+        <pre id="mermaid-src" style="white-space:pre-wrap;"></pre>
+      </details>
+    </section>
+  </main>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>

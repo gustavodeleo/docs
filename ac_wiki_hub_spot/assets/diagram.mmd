@@ -1,0 +1,451 @@
+flowchart TD
+docs["Docs"]
+docs --> docs_functions_features
+docs_functions_features["Functions Features"]
+docs_functions_features --> docs_functions_features_data_sources
+docs_functions_features_data_sources["Data Sources"]
+docs_functions_features --> docs_functions_features_export_functionality
+docs_functions_features_export_functionality["Export Functionality"]
+docs_functions_features --> docs_functions_features_gui
+docs_functions_features_gui["Gui"]
+docs_functions_features --> docs_functions_features_main_functionality
+docs_functions_features_main_functionality["Main Functionality"]
+docs_functions_features --> docs_functions_features_process_support
+docs_functions_features_process_support["Process Support"]
+docs_functions_features --> docs_functions_features_use_of_analytics_frontends
+docs_functions_features_use_of_analytics_frontends["Use Of Analytics Frontends"]
+docs --> docs_getting_started
+docs_getting_started["Getting Started"]
+docs_getting_started --> docs_getting_started_configuring_analyticscreator
+docs_getting_started_configuring_analyticscreator["Configuring AnalyticsCreator"]
+docs_getting_started --> docs_getting_started_download_and_installation
+docs_getting_started_download_and_installation["Download And Installation"]
+docs_getting_started --> docs_getting_started_installation
+docs_getting_started_installation["Installation"]
+docs_getting_started --> docs_getting_started_quick_start_guide
+docs_getting_started_quick_start_guide["Quick Start Guide"]
+docs_getting_started --> docs_getting_started_system_requirements
+docs_getting_started_system_requirements["System Requirements"]
+docs_getting_started --> docs_getting_started_understanding_analytics_creator
+docs_getting_started_understanding_analytics_creator["Understanding Analytics Creator"]
+docs --> docs_manage_objects
+docs_manage_objects["Manage Objects"]
+docs_manage_objects --> docs_manage_objects_common_operations
+docs_manage_objects_common_operations["Common Operations"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_add
+docs_manage_objects_common_operations_add["Add"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_create
+docs_manage_objects_common_operations_create["Create"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_delete
+docs_manage_objects_common_operations_delete["Delete"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_duplicate
+docs_manage_objects_common_operations_duplicate["Duplicate"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_edit
+docs_manage_objects_common_operations_edit["Edit"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_export
+docs_manage_objects_common_operations_export["Export"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_generate
+docs_manage_objects_common_operations_generate["Generate"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_import
+docs_manage_objects_common_operations_import["Import"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_list
+docs_manage_objects_common_operations_list["List"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_locate
+docs_manage_objects_common_operations_locate["Locate"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_refresh
+docs_manage_objects_common_operations_refresh["Refresh"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_run
+docs_manage_objects_common_operations_run["Run"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_set
+docs_manage_objects_common_operations_set["Set"]
+docs_manage_objects_common_operations --> docs_manage_objects_common_operations_show
+docs_manage_objects_common_operations_show["Show"]
+docs_manage_objects --> docs_manage_objects_specific_operations
+docs_manage_objects_specific_operations["Specific Operations"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_apply_filter
+docs_manage_objects_specific_operations_apply_filter["Apply Filter"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_delete_filter
+docs_manage_objects_specific_operations_delete_filter["Delete Filter"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_import_connector_from_cloud
+docs_manage_objects_specific_operations_import_connector_from_cloud["Import Connector From Cloud"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_import_connector_from_file
+docs_manage_objects_specific_operations_import_connector_from_file["Import Connector From File"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_lock_group
+docs_manage_objects_specific_operations_lock_group["Lock Group"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_preview_data
+docs_manage_objects_specific_operations_preview_data["Preview Data"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_read_source_from_connector
+docs_manage_objects_specific_operations_read_source_from_connector["Read Source From Connector"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_refresh_all_sources
+docs_manage_objects_specific_operations_refresh_all_sources["Refresh All Sources"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_refresh_dwh_wizard
+docs_manage_objects_specific_operations_refresh_dwh_wizard["Refresh DWH Wizard"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_refresh_used_sources
+docs_manage_objects_specific_operations_refresh_used_sources["Refresh Used Sources"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_store_current_filter
+docs_manage_objects_specific_operations_store_current_filter["Store Current Filter"]
+docs_manage_objects_specific_operations --> docs_manage_objects_specific_operations_unlock_group
+docs_manage_objects_specific_operations_unlock_group["Unlock Group"]
+docs --> docs_reference
+docs_reference["Reference"]
+docs_reference --> docs_reference_context_menus
+docs_reference_context_menus["Context Menus"]
+docs_reference_context_menus --> docs_reference_context_menus_diagram_canvas
+docs_reference_context_menus_diagram_canvas["Diagram Canvas"]
+docs_reference_context_menus --> docs_reference_context_menus_object_groups
+docs_reference_context_menus_object_groups["Object Groups"]
+docs_reference_context_menus --> docs_reference_context_menus_object_membership
+docs_reference_context_menus_object_membership["Object Membership"]
+docs_reference --> docs_reference_data_mart
+docs_reference_data_mart["Data Mart"]
+docs_reference_data_mart --> docs_reference_data_mart_galaxies
+docs_reference_data_mart_galaxies["Galaxies"]
+docs_reference_data_mart --> docs_reference_data_mart_hierarchies
+docs_reference_data_mart_hierarchies["Hierarchies"]
+docs_reference_data_mart --> docs_reference_data_mart_models
+docs_reference_data_mart_models["Models"]
+docs_reference_data_mart --> docs_reference_data_mart_partitions
+docs_reference_data_mart_partitions["Partitions"]
+docs_reference_data_mart --> docs_reference_data_mart_roles
+docs_reference_data_mart_roles["Roles"]
+docs_reference_data_mart --> docs_reference_data_mart_stars
+docs_reference_data_mart_stars["Stars"]
+docs_reference --> docs_reference_deployment
+docs_reference_deployment["Deployment"]
+docs_reference_deployment --> docs_reference_deployment_deployment_package
+docs_reference_deployment_deployment_package["Deployment Package"]
+docs_reference_deployment --> docs_reference_deployment_deployment_package_0
+docs_reference_deployment_deployment_package_0["Deployment Package 0"]
+docs_reference --> docs_reference_dwh
+docs_reference_dwh["DWH"]
+docs_reference_dwh --> docs_reference_dwh_indexes
+docs_reference_dwh_indexes["Indexes"]
+docs_reference_dwh --> docs_reference_dwh_layers
+docs_reference_dwh_layers["Layers"]
+docs_reference_dwh --> docs_reference_dwh_macros
+docs_reference_dwh_macros["Macros"]
+docs_reference_dwh --> docs_reference_dwh_predefined_transformations
+docs_reference_dwh_predefined_transformations["Predefined Transformations"]
+docs_reference_dwh --> docs_reference_dwh_references
+docs_reference_dwh_references["References"]
+docs_reference_dwh --> docs_reference_dwh_schemas
+docs_reference_dwh_schemas["Schemas"]
+docs_reference_dwh --> docs_reference_dwh_snapshots
+docs_reference_dwh_snapshots["Snapshots"]
+docs_reference_dwh --> docs_reference_dwh_tables
+docs_reference_dwh_tables["Tables"]
+docs_reference --> docs_reference_etl
+docs_reference_etl["ETL"]
+docs_reference_etl --> docs_reference_etl_calendar_dimension
+docs_reference_etl_calendar_dimension["Calendar Dimension"]
+docs_reference_etl --> docs_reference_etl_historizations
+docs_reference_etl_historizations["Historizations"]
+docs_reference_etl --> docs_reference_etl_imports
+docs_reference_etl_imports["Imports"]
+docs_reference_etl --> docs_reference_etl_new_transformation
+docs_reference_etl_new_transformation["New Transformation"]
+docs_reference_etl --> docs_reference_etl_packages
+docs_reference_etl_packages["Packages"]
+docs_reference_etl --> docs_reference_etl_scripts
+docs_reference_etl_scripts["Scripts"]
+docs_reference_etl --> docs_reference_etl_snapshot_dimension
+docs_reference_etl_snapshot_dimension["Snapshot Dimension"]
+docs_reference_etl --> docs_reference_etl_time_dimension
+docs_reference_etl_time_dimension["Time Dimension"]
+docs_reference_etl --> docs_reference_etl_transformations
+docs_reference_etl_transformations["Transformations"]
+docs_reference --> docs_reference_file_menu
+docs_reference_file_menu["File Menu"]
+docs_reference_file_menu --> docs_reference_file_menu_backup_and_restore
+docs_reference_file_menu_backup_and_restore["Backup And Restore"]
+docs_reference_file_menu --> docs_reference_file_menu_connect
+docs_reference_file_menu_connect["Connect"]
+docs_reference_file_menu --> docs_reference_file_menu_dwh_wizard
+docs_reference_file_menu_dwh_wizard["DWH Wizard"]
+docs_reference_file_menu --> docs_reference_file_menu_new_dwh
+docs_reference_file_menu_new_dwh["New DWH"]
+docs_reference_file_menu --> docs_reference_file_menu_sync_dwh
+docs_reference_file_menu_sync_dwh["Sync DWH"]
+docs_reference --> docs_reference_help
+docs_reference_help["Help"]
+docs_reference_help --> docs_reference_help_about
+docs_reference_help_about["About"]
+docs_reference_help --> docs_reference_help_community
+docs_reference_help_community["Community"]
+docs_reference_help --> docs_reference_help_documentation
+docs_reference_help_documentation["Documentation"]
+docs_reference_help --> docs_reference_help_eula
+docs_reference_help_eula["EULA"]
+docs_reference_help --> docs_reference_help_export_in_word
+docs_reference_help_export_in_word["Export In Word"]
+docs_reference_help --> docs_reference_help_export_to_visio
+docs_reference_help_export_to_visio["Export To Visio"]
+docs_reference_help --> docs_reference_help_version_history
+docs_reference_help_version_history["Version History"]
+docs_reference_help --> docs_reference_help_videos
+docs_reference_help_videos["Videos"]
+docs_reference --> docs_reference_options
+docs_reference_options["Options"]
+docs_reference_options --> docs_reference_options_dwh_settings
+docs_reference_options_dwh_settings["DWH Settings"]
+docs_reference_options --> docs_reference_options_encrypted_strings
+docs_reference_options_encrypted_strings["Encrypted Strings"]
+docs_reference_options --> docs_reference_options_interface_list
+docs_reference_options_interface_list["Interface List"]
+docs_reference_options --> docs_reference_options_parameter
+docs_reference_options_parameter["Parameter"]
+docs_reference_options --> docs_reference_options_user_groups
+docs_reference_options_user_groups["User Groups"]
+docs_reference --> docs_reference_project
+docs_reference_project["Project"]
+docs_reference_project --> docs_reference_project_load_project
+docs_reference_project_load_project["Load Project"]
+docs_reference_project --> docs_reference_project_save_project
+docs_reference_project_save_project["Save Project"]
+docs_reference --> docs_reference_sources
+docs_reference_sources["Sources"]
+docs_reference_sources --> docs_reference_sources_list_connectors
+docs_reference_sources_list_connectors["List Connectors"]
+docs_reference_sources --> docs_reference_sources_list_references
+docs_reference_sources_list_references["List References"]
+docs_reference_sources --> docs_reference_sources_list_sources
+docs_reference_sources_list_sources["List Sources"]
+docs_reference_sources --> docs_reference_sources_new_connector_add
+docs_reference_sources_new_connector_add["New Connector Add"]
+docs_reference_sources --> docs_reference_sources_new_connector_import_from_cloud
+docs_reference_sources_new_connector_import_from_cloud["New Connector Import From Cloud"]
+docs_reference_sources --> docs_reference_sources_new_connector_import_from_file
+docs_reference_sources_new_connector_import_from_file["New Connector Import From File"]
+docs_reference --> docs_reference_ui_elements
+docs_reference_ui_elements["UI Elements"]
+docs_reference_ui_elements --> docs_reference_ui_elements_configuration
+docs_reference_ui_elements_configuration["Configuration"]
+docs_reference_ui_elements --> docs_reference_ui_elements_wizards
+docs_reference_ui_elements_wizards["Wizards"]
+docs --> docs_reference_guide
+docs_reference_guide["Reference Guide"]
+docs_reference_guide --> docs_reference_guide_packages_workflow
+docs_reference_guide_packages_workflow["Packages Workflow"]
+docs_reference_guide_packages_workflow --> docs_reference_guide_packages_workflow_historization_package
+docs_reference_guide_packages_workflow_historization_package["Historization Package"]
+docs --> docs_tutorials
+docs_tutorials["Tutorials"]
+docs_tutorials --> docs_tutorials_northwind_dwh_walkthrough
+docs_tutorials_northwind_dwh_walkthrough["Northwind DWH Walkthrough"]
+docs --> docs_user_guide
+docs_user_guide["User Guide"]
+docs_user_guide --> docs_user_guide_advanced_features
+docs_user_guide_advanced_features["Advanced Features"]
+docs_user_guide --> docs_user_guide_connectors_sources
+docs_user_guide_connectors_sources["Connectors Sources"]
+docs_user_guide --> docs_user_guide_data_structures
+docs_user_guide_data_structures["Data Structures"]
+docs_user_guide --> docs_user_guide_desktop_interface
+docs_user_guide_desktop_interface["Desktop Interface"]
+docs_user_guide --> docs_user_guide_interface_settings
+docs_user_guide_interface_settings["Interface Settings"]
+docs_user_guide --> docs_user_guide_modeling_approaches
+docs_user_guide_modeling_approaches["Modeling Approaches"]
+docs_user_guide_modeling_approaches --> docs_user_guide_modeling_approaches_data_vault_modeling
+docs_user_guide_modeling_approaches_data_vault_modeling["Data Vault Modeling"]
+docs_user_guide_modeling_approaches --> docs_user_guide_modeling_approaches_dimensional_modeling_with_analyticscreator
+docs_user_guide_modeling_approaches_dimensional_modeling_with_analyticscreator["Dimensional Modeling With AnalyticsCreator"]
+docs_user_guide_modeling_approaches --> docs_user_guide_modeling_approaches_medallion_modeling
+docs_user_guide_modeling_approaches_medallion_modeling["Medallion Modeling"]
+docs_user_guide_modeling_approaches --> docs_user_guide_modeling_approaches_mixed_modeling_dwh
+docs_user_guide_modeling_approaches_mixed_modeling_dwh["Mixed Modeling DWH"]
+docs_user_guide --> docs_user_guide_packages_workflow
+docs_user_guide_packages_workflow["Packages Workflow"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_etl
+docs_user_guide_packages_workflow_etl["ETL"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_historization_package
+docs_user_guide_packages_workflow_historization_package["Historization Package"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_import_package
+docs_user_guide_packages_workflow_import_package["Import Package"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_persisting_package
+docs_user_guide_packages_workflow_persisting_package["Persisting Package"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_script_launching_package
+docs_user_guide_packages_workflow_script_launching_package["Script Launching Package"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_snapshots_and_snapshot_groups
+docs_user_guide_packages_workflow_snapshots_and_snapshot_groups["Snapshots And Snapshot Groups"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_version_control
+docs_user_guide_packages_workflow_version_control["Version Control"]
+docs_user_guide_packages_workflow --> docs_user_guide_packages_workflow_workflow_package
+docs_user_guide_packages_workflow_workflow_package["Workflow Package"]
+docs_user_guide --> docs_user_guide_parameters_macros
+docs_user_guide_parameters_macros["Parameters Macros"]
+docs_user_guide --> docs_user_guide_tables_references
+docs_user_guide_tables_references["Tables References"]
+docs_user_guide --> docs_user_guide_transformations
+docs_user_guide_transformations["Transformations"]
+docs_user_guide --> docs_user_guide_wizards
+docs_user_guide_wizards["Wizards"]
+docs_user_guide_wizards --> docs_user_guide_wizards_calendar_transformation_wizard
+docs_user_guide_wizards_calendar_transformation_wizard["Calendar Transformation Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_dwh_wizard_function
+docs_user_guide_wizards_dwh_wizard_function["DWH Wizard Function"]
+docs_user_guide_wizards --> docs_user_guide_wizards_historization_wizard
+docs_user_guide_wizards_historization_wizard["Historization Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_import_wizard
+docs_user_guide_wizards_import_wizard["Import Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_persisting_wizard
+docs_user_guide_wizards_persisting_wizard["Persisting Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_snapshot_transformation_wizard
+docs_user_guide_wizards_snapshot_transformation_wizard["Snapshot Transformation Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_source_wizard
+docs_user_guide_wizards_source_wizard["Source Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_time_transformation_wizard
+docs_user_guide_wizards_time_transformation_wizard["Time Transformation Wizard"]
+docs_user_guide_wizards --> docs_user_guide_wizards_transformation_wizard
+docs_user_guide_wizards_transformation_wizard["Transformation Wizard"]
+docs_user_guide --> docs_user_guide_working_with_analyticscreator
+docs_user_guide_working_with_analyticscreator["Working With AnalyticsCreator"]
+click docs "https://www.analyticscreator.com/docs" _blank
+click docs_functions_features "https://www.analyticscreator.com/docs/functions-features" _blank
+click docs_functions_features_data_sources "https://www.analyticscreator.com/docs/functions-features/data-sources" _blank
+click docs_functions_features_export_functionality "https://www.analyticscreator.com/docs/functions-features/export-functionality" _blank
+click docs_functions_features_gui "https://www.analyticscreator.com/docs/functions-features/gui" _blank
+click docs_functions_features_main_functionality "https://www.analyticscreator.com/docs/functions-features/main-functionality" _blank
+click docs_functions_features_process_support "https://www.analyticscreator.com/docs/functions-features/process-support" _blank
+click docs_functions_features_use_of_analytics_frontends "https://www.analyticscreator.com/docs/functions-features/use-of-analytics-frontends" _blank
+click docs_getting_started "https://www.analyticscreator.com/docs/getting-started" _blank
+click docs_getting_started_configuring_analyticscreator "https://www.analyticscreator.com/docs/getting-started/configuring-analyticscreator" _blank
+click docs_getting_started_download_and_installation "https://www.analyticscreator.com/docs/getting-started/download-and-installation" _blank
+click docs_getting_started_installation "https://www.analyticscreator.com/docs/getting-started/installation" _blank
+click docs_getting_started_quick_start_guide "https://www.analyticscreator.com/docs/getting-started/quick-start-guide" _blank
+click docs_getting_started_system_requirements "https://www.analyticscreator.com/docs/getting-started/system-requirements" _blank
+click docs_getting_started_understanding_analytics_creator "https://www.analyticscreator.com/docs/getting-started/understanding-analytics-creator" _blank
+click docs_manage_objects "https://www.analyticscreator.com/docs/manage-objects" _blank
+click docs_manage_objects_common_operations "https://www.analyticscreator.com/docs/manage-objects/common-operations" _blank
+click docs_manage_objects_common_operations_add "https://www.analyticscreator.com/docs/manage-objects/common-operations/add" _blank
+click docs_manage_objects_common_operations_create "https://www.analyticscreator.com/docs/manage-objects/common-operations/create" _blank
+click docs_manage_objects_common_operations_delete "https://www.analyticscreator.com/docs/manage-objects/common-operations/delete" _blank
+click docs_manage_objects_common_operations_duplicate "https://www.analyticscreator.com/docs/manage-objects/common-operations/duplicate" _blank
+click docs_manage_objects_common_operations_edit "https://www.analyticscreator.com/docs/manage-objects/common-operations/edit" _blank
+click docs_manage_objects_common_operations_export "https://www.analyticscreator.com/docs/manage-objects/common-operations/export" _blank
+click docs_manage_objects_common_operations_generate "https://www.analyticscreator.com/docs/manage-objects/common-operations/generate" _blank
+click docs_manage_objects_common_operations_import "https://www.analyticscreator.com/docs/manage-objects/common-operations/import" _blank
+click docs_manage_objects_common_operations_list "https://www.analyticscreator.com/docs/manage-objects/common-operations/list" _blank
+click docs_manage_objects_common_operations_locate "https://www.analyticscreator.com/docs/manage-objects/common-operations/locate" _blank
+click docs_manage_objects_common_operations_refresh "https://www.analyticscreator.com/docs/manage-objects/common-operations/refresh" _blank
+click docs_manage_objects_common_operations_run "https://www.analyticscreator.com/docs/manage-objects/common-operations/run" _blank
+click docs_manage_objects_common_operations_set "https://www.analyticscreator.com/docs/manage-objects/common-operations/set" _blank
+click docs_manage_objects_common_operations_show "https://www.analyticscreator.com/docs/manage-objects/common-operations/show" _blank
+click docs_manage_objects_specific_operations "https://www.analyticscreator.com/docs/manage-objects/specific-operations" _blank
+click docs_manage_objects_specific_operations_apply_filter "https://www.analyticscreator.com/docs/manage-objects/specific-operations/apply-filter" _blank
+click docs_manage_objects_specific_operations_delete_filter "https://www.analyticscreator.com/docs/manage-objects/specific-operations/delete-filter" _blank
+click docs_manage_objects_specific_operations_import_connector_from_cloud "https://www.analyticscreator.com/docs/manage-objects/specific-operations/import-connector-from-cloud" _blank
+click docs_manage_objects_specific_operations_import_connector_from_file "https://www.analyticscreator.com/docs/manage-objects/specific-operations/import-connector-from-file" _blank
+click docs_manage_objects_specific_operations_lock_group "https://www.analyticscreator.com/docs/manage-objects/specific-operations/lock-group" _blank
+click docs_manage_objects_specific_operations_preview_data "https://www.analyticscreator.com/docs/manage-objects/specific-operations/preview-data" _blank
+click docs_manage_objects_specific_operations_read_source_from_connector "https://www.analyticscreator.com/docs/manage-objects/specific-operations/read-source-from-connector" _blank
+click docs_manage_objects_specific_operations_refresh_all_sources "https://www.analyticscreator.com/docs/manage-objects/specific-operations/refresh-all-sources" _blank
+click docs_manage_objects_specific_operations_refresh_dwh_wizard "https://www.analyticscreator.com/docs/manage-objects/specific-operations/refresh-dwh-wizard" _blank
+click docs_manage_objects_specific_operations_refresh_used_sources "https://www.analyticscreator.com/docs/manage-objects/specific-operations/refresh-used-sources" _blank
+click docs_manage_objects_specific_operations_store_current_filter "https://www.analyticscreator.com/docs/manage-objects/specific-operations/store-current-filter" _blank
+click docs_manage_objects_specific_operations_unlock_group "https://www.analyticscreator.com/docs/manage-objects/specific-operations/unlock-group" _blank
+click docs_reference "https://www.analyticscreator.com/docs/reference" _blank
+click docs_reference_context_menus "https://www.analyticscreator.com/docs/reference/context-menus" _blank
+click docs_reference_context_menus_diagram_canvas "https://www.analyticscreator.com/docs/reference/context-menus/diagram-canvas" _blank
+click docs_reference_context_menus_object_groups "https://www.analyticscreator.com/docs/reference/context-menus/object-groups" _blank
+click docs_reference_context_menus_object_membership "https://www.analyticscreator.com/docs/reference/context-menus/object-membership" _blank
+click docs_reference_data_mart "https://www.analyticscreator.com/docs/reference/data-mart" _blank
+click docs_reference_data_mart_galaxies "https://www.analyticscreator.com/docs/reference/data-mart/galaxies" _blank
+click docs_reference_data_mart_hierarchies "https://www.analyticscreator.com/docs/reference/data-mart/hierarchies" _blank
+click docs_reference_data_mart_models "https://www.analyticscreator.com/docs/reference/data-mart/models" _blank
+click docs_reference_data_mart_partitions "https://www.analyticscreator.com/docs/reference/data-mart/partitions" _blank
+click docs_reference_data_mart_roles "https://www.analyticscreator.com/docs/reference/data-mart/roles" _blank
+click docs_reference_data_mart_stars "https://www.analyticscreator.com/docs/reference/data-mart/stars" _blank
+click docs_reference_deployment "https://www.analyticscreator.com/docs/reference/deployment" _blank
+click docs_reference_deployment_deployment_package "https://www.analyticscreator.com/docs/reference/deployment/deployment-package" _blank
+click docs_reference_deployment_deployment_package_0 "https://www.analyticscreator.com/docs/reference/deployment/deployment-package-0" _blank
+click docs_reference_dwh "https://www.analyticscreator.com/docs/reference/dwh" _blank
+click docs_reference_dwh_indexes "https://www.analyticscreator.com/docs/reference/dwh/indexes" _blank
+click docs_reference_dwh_layers "https://www.analyticscreator.com/docs/reference/dwh/layers" _blank
+click docs_reference_dwh_macros "https://www.analyticscreator.com/docs/reference/dwh/macros" _blank
+click docs_reference_dwh_predefined_transformations "https://www.analyticscreator.com/docs/reference/dwh/predefined-transformations" _blank
+click docs_reference_dwh_references "https://www.analyticscreator.com/docs/reference/dwh/references" _blank
+click docs_reference_dwh_schemas "https://www.analyticscreator.com/docs/reference/dwh/schemas" _blank
+click docs_reference_dwh_snapshots "https://www.analyticscreator.com/docs/reference/dwh/snapshots" _blank
+click docs_reference_dwh_tables "https://www.analyticscreator.com/docs/reference/dwh/tables" _blank
+click docs_reference_etl "https://www.analyticscreator.com/docs/reference/etl" _blank
+click docs_reference_etl_calendar_dimension "https://www.analyticscreator.com/docs/reference/etl/calendar-dimension" _blank
+click docs_reference_etl_historizations "https://www.analyticscreator.com/docs/reference/etl/historizations" _blank
+click docs_reference_etl_imports "https://www.analyticscreator.com/docs/reference/etl/imports" _blank
+click docs_reference_etl_new_transformation "https://www.analyticscreator.com/docs/reference/etl/new-transformation" _blank
+click docs_reference_etl_packages "https://www.analyticscreator.com/docs/reference/etl/packages" _blank
+click docs_reference_etl_scripts "https://www.analyticscreator.com/docs/reference/etl/scripts" _blank
+click docs_reference_etl_snapshot_dimension "https://www.analyticscreator.com/docs/reference/etl/snapshot-dimension" _blank
+click docs_reference_etl_time_dimension "https://www.analyticscreator.com/docs/reference/etl/time-dimension" _blank
+click docs_reference_etl_transformations "https://www.analyticscreator.com/docs/reference/etl/transformations" _blank
+click docs_reference_file_menu "https://www.analyticscreator.com/docs/reference/file-menu" _blank
+click docs_reference_file_menu_backup_and_restore "https://www.analyticscreator.com/docs/reference/file-menu/backup-and-restore" _blank
+click docs_reference_file_menu_connect "https://www.analyticscreator.com/docs/reference/file-menu/connect" _blank
+click docs_reference_file_menu_dwh_wizard "https://www.analyticscreator.com/docs/reference/file-menu/dwh-wizard" _blank
+click docs_reference_file_menu_new_dwh "https://www.analyticscreator.com/docs/reference/file-menu/new-dwh" _blank
+click docs_reference_file_menu_sync_dwh "https://www.analyticscreator.com/docs/reference/file-menu/sync-dwh" _blank
+click docs_reference_help "https://www.analyticscreator.com/docs/reference/help" _blank
+click docs_reference_help_about "https://www.analyticscreator.com/docs/reference/help/about" _blank
+click docs_reference_help_community "https://www.analyticscreator.com/docs/reference/help/community" _blank
+click docs_reference_help_documentation "https://www.analyticscreator.com/docs/reference/help/documentation" _blank
+click docs_reference_help_eula "https://www.analyticscreator.com/docs/reference/help/eula" _blank
+click docs_reference_help_export_in_word "https://www.analyticscreator.com/docs/reference/help/export-in-word" _blank
+click docs_reference_help_export_to_visio "https://www.analyticscreator.com/docs/reference/help/export-to-visio" _blank
+click docs_reference_help_version_history "https://www.analyticscreator.com/docs/reference/help/version-history" _blank
+click docs_reference_help_videos "https://www.analyticscreator.com/docs/reference/help/videos" _blank
+click docs_reference_options "https://www.analyticscreator.com/docs/reference/options" _blank
+click docs_reference_options_dwh_settings "https://www.analyticscreator.com/docs/reference/options/dwh-settings" _blank
+click docs_reference_options_encrypted_strings "https://www.analyticscreator.com/docs/reference/options/encrypted-strings" _blank
+click docs_reference_options_interface_list "https://www.analyticscreator.com/docs/reference/options/interface-list" _blank
+click docs_reference_options_parameter "https://www.analyticscreator.com/docs/reference/options/parameter" _blank
+click docs_reference_options_user_groups "https://www.analyticscreator.com/docs/reference/options/user-groups" _blank
+click docs_reference_project "https://www.analyticscreator.com/docs/reference/project" _blank
+click docs_reference_project_load_project "https://www.analyticscreator.com/docs/reference/project/load-project" _blank
+click docs_reference_project_save_project "https://www.analyticscreator.com/docs/reference/project/save-project" _blank
+click docs_reference_sources "https://www.analyticscreator.com/docs/reference/sources" _blank
+click docs_reference_sources_list_connectors "https://www.analyticscreator.com/docs/reference/sources/list-connectors" _blank
+click docs_reference_sources_list_references "https://www.analyticscreator.com/docs/reference/sources/list-references" _blank
+click docs_reference_sources_list_sources "https://www.analyticscreator.com/docs/reference/sources/list-sources" _blank
+click docs_reference_sources_new_connector_add "https://www.analyticscreator.com/docs/reference/sources/new-connector-add" _blank
+click docs_reference_sources_new_connector_import_from_cloud "https://www.analyticscreator.com/docs/reference/sources/new-connector-import-from-cloud" _blank
+click docs_reference_sources_new_connector_import_from_file "https://www.analyticscreator.com/docs/reference/sources/new-connector-import-from-file" _blank
+click docs_reference_ui_elements "https://www.analyticscreator.com/docs/reference/ui-elements" _blank
+click docs_reference_ui_elements_configuration "https://www.analyticscreator.com/docs/reference/ui-elements/configuration" _blank
+click docs_reference_ui_elements_wizards "https://www.analyticscreator.com/docs/reference/ui-elements/wizards" _blank
+click docs_reference_guide_packages_workflow_historization_package "https://www.analyticscreator.com/docs/reference-guide/packages-workflow/historization-package" _blank
+click docs_tutorials "https://www.analyticscreator.com/docs/tutorials" _blank
+click docs_tutorials_northwind_dwh_walkthrough "https://www.analyticscreator.com/docs/tutorials/northwind-dwh-walkthrough" _blank
+click docs_user_guide "https://www.analyticscreator.com/docs/user-guide" _blank
+click docs_user_guide_advanced_features "https://www.analyticscreator.com/docs/user-guide/advanced-features" _blank
+click docs_user_guide_connectors_sources "https://www.analyticscreator.com/docs/user-guide/connectors-sources" _blank
+click docs_user_guide_data_structures "https://www.analyticscreator.com/docs/user-guide/data-structures" _blank
+click docs_user_guide_desktop_interface "https://www.analyticscreator.com/docs/user-guide/desktop-interface" _blank
+click docs_user_guide_interface_settings "https://www.analyticscreator.com/docs/user-guide/interface-settings" _blank
+click docs_user_guide_modeling_approaches "https://www.analyticscreator.com/docs/user-guide/modeling-approaches" _blank
+click docs_user_guide_modeling_approaches_data_vault_modeling "https://www.analyticscreator.com/docs/user-guide/modeling-approaches/data-vault-modeling" _blank
+click docs_user_guide_modeling_approaches_dimensional_modeling_with_analyticscreator "https://www.analyticscreator.com/docs/user-guide/modeling-approaches/dimensional-modeling-with-analyticscreator" _blank
+click docs_user_guide_modeling_approaches_medallion_modeling "https://www.analyticscreator.com/docs/user-guide/modeling-approaches/medallion-modeling" _blank
+click docs_user_guide_modeling_approaches_mixed_modeling_dwh "https://www.analyticscreator.com/docs/user-guide/modeling-approaches/mixed-modeling-dwh" _blank
+click docs_user_guide_packages_workflow "https://www.analyticscreator.com/docs/user-guide/packages-workflow" _blank
+click docs_user_guide_packages_workflow_etl "https://www.analyticscreator.com/docs/user-guide/packages-workflow/etl" _blank
+click docs_user_guide_packages_workflow_historization_package "https://www.analyticscreator.com/docs/user-guide/packages-workflow/historization-package" _blank
+click docs_user_guide_packages_workflow_import_package "https://www.analyticscreator.com/docs/user-guide/packages-workflow/import-package" _blank
+click docs_user_guide_packages_workflow_persisting_package "https://www.analyticscreator.com/docs/user-guide/packages-workflow/persisting-package" _blank
+click docs_user_guide_packages_workflow_script_launching_package "https://www.analyticscreator.com/docs/user-guide/packages-workflow/script-launching-package" _blank
+click docs_user_guide_packages_workflow_snapshots_and_snapshot_groups "https://www.analyticscreator.com/docs/user-guide/packages-workflow/snapshots-and-snapshot-groups" _blank
+click docs_user_guide_packages_workflow_version_control "https://www.analyticscreator.com/docs/user-guide/packages-workflow/version-control" _blank
+click docs_user_guide_packages_workflow_workflow_package "https://www.analyticscreator.com/docs/user-guide/packages-workflow/workflow-package" _blank
+click docs_user_guide_parameters_macros "https://www.analyticscreator.com/docs/user-guide/parameters-macros" _blank
+click docs_user_guide_tables_references "https://www.analyticscreator.com/docs/user-guide/tables-references" _blank
+click docs_user_guide_transformations "https://www.analyticscreator.com/docs/user-guide/transformations" _blank
+click docs_user_guide_wizards "https://www.analyticscreator.com/docs/user-guide/wizards" _blank
+click docs_user_guide_wizards_calendar_transformation_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/calendar-transformation-wizard" _blank
+click docs_user_guide_wizards_dwh_wizard_function "https://www.analyticscreator.com/docs/user-guide/wizards/dwh-wizard-function" _blank
+click docs_user_guide_wizards_historization_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/historization-wizard" _blank
+click docs_user_guide_wizards_import_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/import-wizard" _blank
+click docs_user_guide_wizards_persisting_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/persisting-wizard" _blank
+click docs_user_guide_wizards_snapshot_transformation_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/snapshot-transformation-wizard" _blank
+click docs_user_guide_wizards_source_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/source-wizard" _blank
+click docs_user_guide_wizards_time_transformation_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/time-transformation-wizard" _blank
+click docs_user_guide_wizards_transformation_wizard "https://www.analyticscreator.com/docs/user-guide/wizards/transformation-wizard" _blank
+click docs_user_guide_working_with_analyticscreator "https://www.analyticscreator.com/docs/user-guide/working-with-analyticscreator" _blank
